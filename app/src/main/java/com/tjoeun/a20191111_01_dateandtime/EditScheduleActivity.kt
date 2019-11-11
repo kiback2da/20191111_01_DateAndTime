@@ -2,13 +2,12 @@ package com.tjoeun.a20191111_01_dateandtime
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_edit_schedule.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : BaseActivity() {
+class EditScheduleActivity : BaseActivity() {
 
     //시작 일자와 시간을 모두 저장하고 있는 변수
     //변수가 만들어지는 현재 일시가 저장되게 함
@@ -16,7 +15,7 @@ class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_edit_schedule)
         setupEvents()
         setValues()
     }
