@@ -44,6 +44,13 @@
             android:entries="@array/schedule_type"
             android:spinnerMode="dialog"/>
 
+        <Spinner
+            android:id="@+id/scheduleTypeSpinner"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"/>
+
 
         <TextView
             android:layout_marginTop="15dp"

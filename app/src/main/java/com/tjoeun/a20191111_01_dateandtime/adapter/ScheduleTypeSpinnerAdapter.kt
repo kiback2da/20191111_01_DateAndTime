@@ -7,8 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import android.widget.TextView
 import com.tjoeun.a20191111_01_dateandtime.R
 import com.tjoeun.a20191111_01_dateandtime.datas.ScheduleType
+import org.w3c.dom.Text
 
 class ScheduleTypeSpinnerAdapter(context: Context, res:Int, list:ArrayList<ScheduleType>) : ArrayAdapter<ScheduleType>(context,res,list){
 
@@ -25,7 +27,6 @@ class ScheduleTypeSpinnerAdapter(context: Context, res:Int, list:ArrayList<Sched
         }
 
         var row = tempRow!!
-
 
 
         return row
